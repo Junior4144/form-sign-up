@@ -1,7 +1,50 @@
 
+
+@font-face {
+    font-family: 'norseregular';
+    src: url('font/norse-webfont.woff2') format('woff2'),
+         url('font/norse-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'norsebold';
+    src: url('norsebold-webfont.woff2') format('woff2'),
+         url('norsebold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
 
+body{
+    display:flex;
+    width:100%;
+    height:100%;
+}
+
+.left-container{
+    width:40vw;
+    background-image: url("img/background-1.avif");
+    
+    height:2792px;
+    background-position: center center;
+
+}
+.right-container{
+    width:auto;
+}
+.header{
+    
+}
+.form-container{
+
+}
+.footer{
+
+}

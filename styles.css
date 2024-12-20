@@ -10,8 +10,8 @@
 }
 @font-face {
     font-family: 'norsebold';
-    src: url('norsebold-webfont.woff2') format('woff2'),
-         url('norsebold-webfont.woff') format('woff');
+    src: url('font/norsebold-webfont.woff2') format('woff2'),
+         url('font/norsebold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -30,21 +30,83 @@ body{
 
 .left-container{
     width:40vw;
+    height:900px;
     background-image: url("img/background-1.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     
-    height:2792px;
-    background-position: center center;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    
 
 }
+.title-container{
+    display:flex;
+    background-color: transparent;
+    background-color: black;
+    background-color: transparent;
+    background: rgb(0 0 0 / 40%); 
+    justify-content: center;
+    height:150px;
+    margin-top: 225px;
+    color:white;
+    align-items: center;
+}
+.title-container img{
+    height: 125px;
+   
+}
+.img-label{
+    height:100%;
+    display:flex;
+    align-items:center;
+    font-size: 90px;
+    font-family: "norsebold";
+    
+}
+.left-footer{
+    background-color: transparent;
+    text-align: center;
+    padding:10px;
+    color:#E5E7EB;
+    font-size: 16px;
+
+}
+
+
+
 .right-container{
-    width:auto;
+    width:65vw;
+    display:flex;
+    flex-direction: column;
+
 }
 .header{
-    
+    background-color: #E5E7EB;
+    max-height:375px;
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 42px;
+}
+.top-text{
+    margin-bottom: 30px;
+    width:650px;
+}
+.bottom-text{
+    margin-bottom: 30px;
 }
 .form-container{
-
+    border: 1px solid black;
 }
 .footer{
-
+    background-color: #E5E7EB;
+    flex: 1;
 }
+/*background-color: transparent;*/
